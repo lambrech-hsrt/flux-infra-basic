@@ -5,6 +5,20 @@ Basic Flux Infrastructure Repo (single instance / single cluster) with a few dem
 
 # Folder Structure
 
+```
+flux-infra-basic
+└── clusters
+    ├── default
+    │   └── guestbook-ui
+    │       └── ...
+    ├── ...
+    └── my-cluster
+        └── flux-system
+            ├── gotk-components.yaml
+            ├── gotk-sync.yaml
+            └── kustomization.yaml
+```
+
 ## Bootstrapping this Demo
 
 ```sh
