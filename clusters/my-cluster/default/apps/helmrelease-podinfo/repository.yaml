@@ -4,6 +4,5 @@ metadata:
   name: podinfo
   namespace: default
 spec:
-  type: oci
-  interval: 5m0s
-  url: oci://ghcr.io/stefanprodan/charts
+  interval: 1m
+  url: https://stefanprodan.github.io/podinfo
