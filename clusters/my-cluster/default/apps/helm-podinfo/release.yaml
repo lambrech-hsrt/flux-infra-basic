@@ -16,3 +16,9 @@ spec:
       interval: 1m
   values:
     replicaCount: 1
+    
+  # Enable Drift Detection
+  driftDetection:
+    mode: enabled
+    ignore:
+      - paths: ["/spec/replicas"]
