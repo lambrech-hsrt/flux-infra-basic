@@ -1,7 +1,7 @@
 apiVersion: source.toolkit.fluxcd.io/v1beta2
 kind: GitRepository
 metadata:
-  name: angi-helloworld
+  name: helm-gitrepo-guestbook
   namespace: default
 spec:
   interval: 5m
