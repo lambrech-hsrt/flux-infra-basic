@@ -20,5 +20,5 @@ spec:
   # Enable Drift Detection
   driftDetection:
     mode: enabled
-    ignore:
-      - paths: ["/spec/replicas"]
+    # ignore:
+    #  - paths: ["/spec/replicas"]
