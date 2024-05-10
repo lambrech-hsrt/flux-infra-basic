@@ -1,0 +1,17 @@
+apiVersion: helm.toolkit.fluxcd.io/v2beta1
+kind: HelmRelease
+metadata:
+  name: angi-helloworld
+  namespace: angi
+spec:
+  interval: 1m
+  releaseName: angi-helloworld
+  chart:
+    spec:
+      chart: charts/angi-helloworld
+      sourceRef:
+        kind: GitRepository
+        name: angi-helloworld
+  values:
+    image:
+      tag: 0.0.2
