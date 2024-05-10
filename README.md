@@ -15,7 +15,7 @@ export GIT_REPO=<REPO_URL>
 flux bootstrap github \
   --components-extra=image-reflector-controller,image-automation-controller \
   --owner=$GITHUB_USER \
-  --repository=fleet-infra \
+  --repository=$GIT_REPO \
   --branch=main \
   --path=./clusters/my-cluster \
   --personal
