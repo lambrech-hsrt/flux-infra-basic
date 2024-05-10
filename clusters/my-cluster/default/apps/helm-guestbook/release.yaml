@@ -1,17 +1,17 @@
 apiVersion: helm.toolkit.fluxcd.io/v2beta1
 kind: HelmRelease
 metadata:
-  name: angi-helloworld
+  name: helm-gitrepo-guestbook
   namespace: default
 spec:
   interval: 1m
-  releaseName: angi-helloworld
+  releaseName: helm-gitrepo-guestbook
   chart:
     spec:
-      chart: charts/angi-helloworld
+      chart: charts/helm-gitrepo-guestbook
       sourceRef:
         kind: GitRepository
-        name: angi-helloworld
+        name: helm-gitrepo-guestbook
   values:
     image:
       tag: 0.0.2
