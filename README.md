@@ -111,9 +111,9 @@ now you can open 127.0.0.1:9001
 
 Login Window
 
-<img src="" alt="login screen">
+<img src="https://github.com/lambrech-hsrt/flux-infra-basic/blob/main/.img/login.png" alt="login screen">
 
 Application Overview:
 
-<img src="" alt="app overview">
+<img src="https://github.com/lambrech-hsrt/flux-infra-basic/blob/main/.img/applications.png" alt="app overview">
 
