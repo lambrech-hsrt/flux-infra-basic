@@ -105,4 +105,15 @@ Wait until the pod ist finished. After That you can expose the UI with the follo
 kubectl port-forward svc/ww-gitops-weave-gitops -n flux-system 9001:9001
 ```
 
+now you can open 127.0.0.1:9001
+
+### UI
+
+Login Window
+
+<img src="" alt="login screen">
+
+Application Overview:
+
+<img src="" alt="app overview">
 
