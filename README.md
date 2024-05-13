@@ -41,6 +41,17 @@ You can view the Reconcilation Process for Kustomization with following command:
 ```sh
 flux get kustomizations --watch
 ```
+## Accessing Demo Application
+
+To Test if everything worked we try to Acces the Podinfo Application with our Webbrowser. To
+do that we first need to port-forward our deployment
+
+```
+kubectl port-forward deploy/podinfo 9898:9898
+```
+now you can open the podinfo Application in the Browser: **127.0.0.1:9898**
+
+<img src="https://github.com/lambrech-hsrt/flux-infra-basic/blob/main/.img/podinfo.png" alt="podinfo app">
 
 ## GitOps Weave UI (Dashboard)
 
