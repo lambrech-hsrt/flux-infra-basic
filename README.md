@@ -6,17 +6,22 @@ Basic Flux Infrastructure Repo (single instance / single cluster) with a few dem
 # Folder Structure
 
 ```
-flux-infra-basic
-└── clusters
-    ├── default
-    │   └── guestbook-ui
-    │       └── ...
-    ├── ...
-    └── my-cluster
-        └── flux-system
-            ├── gotk-components.yaml
-            ├── gotk-sync.yaml
-            └── kustomization.yaml
+📁 flux-infra-basic
+└── 📁 clusters
+    ├── 📁 default
+    │   ├── 📁 apps
+    │   │   ├── 📁 helm-podinfo
+    │   │   └── ...
+    │   └── ...
+    └── 📁 my-cluster
+        ├── 📁 flux-system
+        │   ├── 📄 gotk-components.yaml
+        │   ├── 📄 gotk-sync.yaml
+        │   └── 📄 kustomization.yaml
+        └── 📁 weave
+            └── 📄 weave-gitops-dashboard.yaml
+
+-- generated with https://tree.nathanfriend.io
 ```
 
 ## Bootstrapping this Demo
