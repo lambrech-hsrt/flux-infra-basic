@@ -51,7 +51,7 @@ kubectl port-forward deploy/podinfo 9898:9898
 ```
 now you can open the podinfo Application in the Browser: **127.0.0.1:9898**
 
-<img src="https://github.com/lambrech-hsrt/flux-infra-basic/blob/main/.img/podinfo.png" alt="podinfo app">
+<img src="https://github.com/lambrech-hsrt/flux-infra-basic/blob/main/.img/podinfo-app.png" alt="podinfo app">
 
 ## GitOps Weave UI (Dashboard)
 
