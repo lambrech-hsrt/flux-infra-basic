@@ -14,7 +14,7 @@ spec:
         app: redis
     spec:
       containers:
-      - name: master
+      - name: redis
         image: redis # {"$imagepolicy": "flux-system:redis"}
         ports:
-        - containerPort: 5555
+        - containerPort: 80
