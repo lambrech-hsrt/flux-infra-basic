@@ -9,4 +9,4 @@ spec:
     name: redis
   policy:
     semver:
-      range: x.x.x
+      range: 7.2.x
