@@ -9,4 +9,4 @@ spec:
     name: redis
   policy:
     semver:
-      range: x.x. # every version
+      range: x.x.x
