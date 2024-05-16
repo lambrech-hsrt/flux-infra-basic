@@ -124,7 +124,11 @@ kubectl port-forward svc/ww-gitops-weave-gitops -n flux-system 9001:9001
 now you can open 127.0.0.1:9001
 
 ### UI
-
+Default password and username:
+```
+username: admin
+password: password
+```
 Login Window
 
 <img src="https://github.com/lambrech-hsrt/flux-infra-basic/blob/main/.img/login.png" alt="login screen">
