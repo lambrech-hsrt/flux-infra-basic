@@ -3,3 +3,8 @@ kind: Kustomization
 resources:
 - gotk-components.yaml
 - gotk-sync.yaml
+
+# permissions
+- accounts/alice-service-acc.yaml
+- RBAC/rbac_read-only-role.yaml
+- RBAC/read-only-rolebinding.yaml
