@@ -133,3 +133,8 @@ Application Overview:
 
 <img src="https://github.com/lambrech-hsrt/flux-infra-basic/blob/main/.img/applications.png" alt="app overview">
 
+## RBAC
+This Demo Configuration creates a new user called **alice** with read only permissions using Kubernetes native RBAC, details see: https://kubernetes.io/docs/reference/access-authn-authz/rbac/
+
+
+
