@@ -38,4 +38,7 @@ spec:
       create: true
       passwordHash: $2a$10$zps8nJqUSqvghneYn5gXEO9d/6zWtxu6Z5Pj2XDvYoV46UUhMHsq.
       username: admin
+    additionalUsers:
+      - username: alice
+        passwordHash: YWxpY2U=
 
