@@ -6,5 +6,6 @@ resources:
 
 # permissions
 - accounts/alice-service-acc.yaml
+- accounts/init-password.yaml
 - RBAC/rbac_read-only-role.yaml
 - RBAC/read-only-rolebinding.yaml
